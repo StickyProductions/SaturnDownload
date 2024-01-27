@@ -1,0 +1,48 @@
+i<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SATURNCS2</title>
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.0.38/build/spline-viewer.js"></script>
+    <style>
+        body {
+            margin: 0;
+            overflow: auto; /* Allow scrolling */
+            position: relative;
+            width: 100%;
+            height: 100vh; /* Set the height to be the viewport height */
+            font-family: 'Inter', sans-serif; /* Use Inter font */
+        }
+        spline-viewer {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1; /* Ensure spline-viewer is on top */
+        }
+        .download-button {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 10px 20px;
+            background-color: #fa0800;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-family: 'Inter', sans-serif; /* Use Inter font */
+            z-index: 2; /* Ensure button is on top of everything */
+        }
+    </style>
+</head>
+<body>
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.0.38/build/spline-viewer.js"></script>
+    <spline-viewer url="https://prod.spline.design/NITvTiXFh8qy7bla/scene.splinecode"></spline-viewer>
+
+    <!-- Download Button -->
+    <a href="https://www.file.io/7fRO/download/QdsCC49lNgzs" class="download-button">Download</a>
+</body>
+</html>
